@@ -1,0 +1,38 @@
+{
+  "name": "api",
+  "version": "0.0.1",
+  "description": "",
+  "author": "",
+  "private": true,
+  "license": "UNLICENSED",
+  "scripts": {
+    "build": "craftsman build",
+    "build:test": "craftsman build --test",
+    "cache": "craftsman cache",
+    "start": "craftsman serve",
+    "start:dev": "craftsman serve --dev",
+    "start:test": "craftsman serve --dev --test",
+    "test": "jest --roots=test",
+    "test:watch": "jest --roots=test --watchAll"
+  },
+  "dependencies": {
+    "@formidablejs/craftsman": "^0.0.1-rc3",
+    "@formidablejs/framework": "^0.0.1-rc13",
+    "@formidablejs/helpers": "^0.0.1-rc1",
+    "@formidablejs/mailer": "^0.0.1-rc1",
+    "@formidablejs/schema-builder": "^0.0.1-rc2",
+    "@formidablejs/stubs": "^0.0.1-rc2",
+    "db-migrate-mysql": "^2.1.2",
+    "db-migrate-pg": "^1.2.2",
+    "db-migrate-sqlite3": "^0.4.0",
+    "imba": "^2.0.0-alpha.155",
+    "ms": "^2.1.2",
+    "sqlite3": "^4.2.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.24",
+    "@types/node": "^15.12.2",
+    "jest": "^27.0.6",
+    "supertest": "^6.1.5"
+  }
+}
