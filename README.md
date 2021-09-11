@@ -52,7 +52,7 @@ npm run serve
 
 #### API
 
-If the API is running on a different port, you can change the `VUE_APP_API_URL` value in the `formidablejs-example/client/.env`` file an.
+If the API is running on a different port, you can change the `VUE_APP_API_URL` value in the `formidablejs-example/client/.env` file an.
 
 You will also be required to change the `APP_URL` value in the `formidablejs-example/api/.env` file.
 
