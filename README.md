@@ -37,6 +37,12 @@ Steps to set up the frontend/client:
 ```bash
 cd formidablejs-example/client
 npm i
+cp .env.example .env
+```
+
+Running the frontend/client:
+
+```bash
 npm run serve
 ```
 
